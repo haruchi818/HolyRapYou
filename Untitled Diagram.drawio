@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T00:07:50.163Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" version="24.2.0" etag="Y514ScksjNnOXHN7C0xh" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T00:33:55.864Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="7b3mFCtQrZtZqTuP75vU" version="24.2.0" type="github">
   <diagram name="Page-1" id="gFgDW86m4Vnm-cJDtXbq">
-    <mxGraphModel>
+    <mxGraphModel dx="1687" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qxwVuCHYPapxVJSHIUIj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qxwVuCHYPapxVJSHIUIj-16" target="qxwVuCHYPapxVJSHIUIj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qxwVuCHYPapxVJSHIUIj-16" value="Router" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qxwVuCHYPapxVJSHIUIj-3" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="670" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qxwVuCHYPapxVJSHIUIj-1" value="Fedora Host" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="670" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qxwVuCHYPapxVJSHIUIj-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="640" as="sourcePoint" />
+            <mxPoint x="415" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qxwVuCHYPapxVJSHIUIj-4" value="Hardware" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qxwVuCHYPapxVJSHIUIj-6" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; CPU: 32 cpu - 64 threads&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; RAM: 128GB 2600&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ddr416CL 10N&lt;/div&gt;&lt;div&gt;HDD: 1 X 2TB NVMe&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1 X 2TB NVMe DAX&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GPU: 4060 Ti 16GB&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="550" width="210" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qxwVuCHYPapxVJSHIUIj-8" value="&lt;div&gt;QEMU&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OS: CoreOs&lt;br&gt;&lt;/div&gt;&lt;div&gt;ADMIN 3 X 2 Cpu&amp;nbsp; X 2 GB (6, 6)&lt;/div&gt;&lt;div&gt;NODE 3 X 4 Cpu&amp;nbsp; X 16 GB (12, 64)&lt;/div&gt;&lt;div&gt;Haproxy 2 X 1 Cpu X 4 GB (2,8)&lt;/div&gt;&lt;div&gt;Wazuh (8,8)&lt;br&gt;&lt;/div&gt;&lt;div&gt;opnsense (4,8)&lt;/div&gt;&lt;div&gt;SUM: 32,94&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Scale up to CPU +30, RAM +32 (-2 for host)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hardware scale: CPU +94, RAM +140&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="380" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
